@@ -1,0 +1,13 @@
+ACID: Stands for Atomicity, Consistency, Isolation, Durability. These are the four properties of a reliable database system.
+
+Atomicity - All transactions are "all or nothing". If any part of a transaction fails, the entire transaction fails.
+
+Consistency - Transactions transform the database from one consistent state to another. Any constraints on the database are not violated.
+
+Isolation - Concurrent transactions do not interfere with each other. Intermediate changes by a transaction are not visible to other transactions until the transaction completes.
+
+Durability - Once a transaction has been committed, it will remain so, even in the event of power loss, crashes, etc.
+
+Triggers: Code that is automatically executed in response to events like INSERT, UPDATE or DELETE statements executed on a table. Triggers are used for things like data integrity checking, auditing, logging, etc.
+
+Stored procedural: Procedural code (functions and procedures) that is stored in the database itself rather than in application code. This allows reusing code and enforcing business logic at the database level.
